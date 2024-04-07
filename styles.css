@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+#header {
+    background-color: #333;
+    background-image: url(mountain.jpg);
+    background-size: cover;
+    background-position: center;
+    background: rgba(red, green, blue, 10%);
+    
+    
+}
+
+footer {
+    background-color: #1b1b1b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+h1{
+    text-align: center;
+    font-size: 500%;
+}
+.tagline{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Menu1 ul,
+.Menu2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.Menu1 li,
+.Menu2 li {
+    margin: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logoimg {
+    max-width: 90px;
+}
+
+.maintext{
+    padding: 300px 100px;
+}
+.explorePara{
+     
+    text-align: center;
+    font-size: 70%;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.responsive-container {
+    text-align: center; /* Center the images */
+}
+.responsive {
+    width: 30%;
+    display: inline-block;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img {
+    width: 50%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+@media only screen and (max-width: 700px){
+
+    .responsive{
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+    .head {
+        flex-wrap: inherit;
+        justify-content: center;
+      }
+    
+      .Menu1 ul,
+      .Menu2 ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .Menu1 li,
+      .Menu2 li {
+        margin: 20px 0;
+      }
+    
+      .logo {
+        margin-top: 20px;
+      }
+
+    .thankyou{
+        font-size: 40px;
+        margin-right: 100px;
+    }
+    .responsive{
+        width: 100%;
+        
+    }
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 8px;
+    }
+    
+
+}
+.onlyimg{
+    background-color: #333;
+    background-image: url(mountain.jpg);
+    background-size: cover;
+    background-position: center;
+    background: rgba(red, green, blue, 10%);
+    padding: 200px;
+    height: 300px;
+    margin: 0px;
+}
+.image-container {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+    background-color: #1b1b1b;
+}
+
+.image-container div {
+    margin: 0 50px; /* Adjust spacing between images */
+    padding: 20px;
+}
+img{
+    width: 90%;
+    padding: 20px;
+    margin-top: 40px;
+}
+#journal{
+    padding-bottom: 20px;
+    background-color: #1b1b1b;
+}
+  a{
+    text-decoration: none;
+  }

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+       body {
+            background-color: #111111; /* dark background */
+            color: #ffffff; /* white text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure footer sticks to the bottom */
+        }
+
+        .container {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: url(meow3.png);
+            background-size: cover;
+            background-position: center;
+            padding-left: 10%;
+            padding-bottom: 100px;
+            padding-top: 100px;
+            border-radius: 10px;
+            
+            flex: 1; /* Allow container to grow */
+        }
+
+        .contact-form {
+            width: 60%;
+            padding-right: 50px;
+        }
+
+        .contact-info {
+            width: 40%;
+            padding-left: 50px;
+            border-left: 1px solid #ffffff; /* vertical line */
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ffffff;
+            background-color: transparent;
+            color: #ffffff;
+            border-radius: 5px;
+            resize: none;
+        }
+
+        input[type="submit"] {
+            background-color: #1db954; /* green color */
+            color: #ffffff;
+            border: none;
+            padding: 15px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #15a548; /* darker green color */
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .icon {
+            margin-right: 10px;
+        }
+
+        .map-container {
+            width: 100%;
+            height: 400px; /* Adjust as needed */
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .footer {
+            background-color: #262626;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
+
+        .footer a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media(max-width: 768px) {
+            .container {
+                flex-direction: column;
+                height: auto;
+            }
+
+            .contact-form,
+            .contact-info {
+                width: 100%;
+                border: none;
+                padding: 0;
+            }
+
+            .contact-info {
+                border-top: 1px solid #ffffff;
+                padding-top: 20px;
+                padding-left: 0;
+            }
+        }
+
+.Menu1 ul,
+.Menu2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.Menu1 li,
+.Menu2 li {
+    margin: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logoimg {
+    max-width: 90px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.map-container {
+    width: 80%;
+    height: 600px; /* Adjust as needed */
+    border-radius: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-right: 1000px; /* Adjust as needed */
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.maps{
+    width: 100%;
+    height: 600px; /* Adjust as needed */
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative; /* Set position relative */
+    margin: 20px auto; /* Center horizontally */
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="Menu1">
+            <ul>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="explore.html">EXPLORE</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <a href="index.html"><img class="logoimg" src="logo.png" alt="logo"></a>
+        </div>
+        <div class="Menu2">
+            <ul>
+                <li><a href="journal.html">JOURNAL</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+
+<div class="container">
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+    <div class="contact-info">
+        <h2>Our Details</h2>
+        <p><i class="fas fa-map-marker-alt icon"></i>123 Street, City, Country</p>
+        <p><i class="fas fa-envelope icon"></i>example@example.com</p>
+        <p><i class="fas fa-phone icon"></i>+1234567890</p>
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f icon"></i></a>
+            <a href="#"><i class="fab fa-twitter icon"></i></a>
+            <a href="#"><i class="fab fa-instagram icon"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
+        </div>
+    </div>
+   
+</div>
+<div class="maps">
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14016.107032236114!2d77.3156753!3d28.5689592!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce446ab6712d3%3A0xdef21240e094e55e!2sAAFT!5e0!3m2!1sen!2sin!4v1712496095165!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</div>
+</div>
+
+
+<footer class="footer">
+    <div>
+        <p>©  Assignment Website. All rights reserved. | <a href="about.html">ABOUT</a> <a href="explore.html">EXPLORE </a> <a href="journal.html">JOURNAL</a> <a href="contact.html">CONTACT US</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
+
+
