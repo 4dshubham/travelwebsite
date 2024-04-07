@@ -13,7 +13,7 @@
     }
     #header {
     background-color: #333;
-    background-image: url(explore5.jpg);
+    background-image: url(aboutus1.jpg);
     background-size: cover;
     background-position: center;
     background: rgba(red, green, blue, 10%);
@@ -155,12 +155,46 @@ blockquote {
 .booknow .right-content img {
   max-width: 100%;
   height: auto;
+  border-radius: 20px;
 }
 .booktour{
     background-color: #1b1b1b;
     padding: 50px
 }
 
+@media only screen and (max-width: 768px) {
+  .head {
+    flex-wrap: inherit;
+    justify-content: center;
+  }
+
+  .Menu1 ul,
+  .Menu2 ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Menu1 li,
+  .Menu2 li {
+    margin: 20px 0;
+  }
+
+  .logo {
+    margin-top: 20px;
+  }
+
+  .worldtour .image-container,
+  .booktour .booknow {
+    flex-direction: column;
+  }
+
+  .testicontainer .testimonial-box,
+  .booknow .left-content,
+  .booknow .right-content {
+    flex: 1;
+    margin: 10px;
+  }
+}
 
     </style>
 </head>
@@ -179,7 +213,7 @@ blockquote {
             </div>
             <div class="Menu2">
                 <ul>
-                    <li><a href="journal.html">JOURNAL</a></li>
+                    <li><a href="journal.html">GALLERY</a></li>
                     <li><a href="contact.html">CONTACT US</a></li>
                 </ul>
             </div>
@@ -237,10 +271,10 @@ blockquote {
         <div class="booknow">
             <div class="left-content">
               <h2>BOOK YOUR TOUR NOW</h2>
-              <p>Some text describing the tour booking process...</p>
+              <p style="padding-top: 30px;">"Embark on your next adventure with confidence by booking your tour now. Our expertly curated experiences promise to immerse you in the wonders of the world. Whether it's exploring ancient ruins or relaxing on pristine beaches, we have the perfect journey waiting for you. Secure your spot today and create unforgettable memories that will last a lifetime. Embark on your next adventure with confidence by booking your tour now. Our expertly curated experiences promise to immerse you in the wonders of the world. Whether it's exploring ancient ruins or relaxing on pristine beaches, we have the perfect journey waiting for you. Secure your spot today and create unforgettable memories that will last a lifetime."</p>
             </div>
             <div class="right-content">
-              <img src="meow3.png" alt="Tour Image">
+              <img src="image1.jpg" alt="Tour Image">
             </div>
           </div>
           
@@ -248,7 +282,7 @@ blockquote {
 
     <footer>
         <div class="container">
-            <p>©  Assignment Website. All rights reserved. | <a href="about.html">ABOUT</a> <a href="explore.html">EXPLORE </a> <a href="journal.html">JOURNAL</a> <a href="contact.html">CONTACT US</a></p>
+            <p>©  Assignment Website. All rights reserved. | <a href="about.html">ABOUT</a> <a href="explore.html">EXPLORE </a> <a href="journal.html">GALLERY</a> <a href="contact.html">CONTACT US</a></p>
         </div>
     </footer>
 

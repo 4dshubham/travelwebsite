@@ -3,8 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>About Us</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #header {
+    background-color: #333;
+    background-image: url(explore5.jpg);
+    background-size: cover;
+    background-position: center;
+    background: rgba(red, green, blue, 10%);
+    padding-bottom: 400px;
+    
+    
+    }
+    .head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Menu1 ul,
+.Menu2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.Menu1 li,
+.Menu2 li {
+    margin: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logoimg {
+    max-width: 90px;
+}
+h1{
+    text-align: center;
+    font-size: 400%;
+    font-weight: 10;
+    
+    padding-top: 150px;
+    text-shadow: #333 1px 1px 20px  ;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.worldtour{
+    background-color: #1b1b1b;
+    
+}
+footer {
+    background-color: #1b1b1b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.image-container {
+  display: flex;
+}
+
+.image {
+  flex: 1;
+  margin: 0;
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.testicontainer {
+  
+  width: 100%;
+  height: 100%;
+  padding: 200px;
+  
+  background-image: url(aboutus.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(meow2.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+
+
+.booknow {
+  display: flex;
+}
+
+.booknow .left-content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.booknow .right-content {
+  flex: 1;
+}
+
+.booknow .right-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.booktour{
+    background-color: #1b1b1b;
+    padding: 50px
+}
+
+@media only screen and (max-width: 768px) {
+  .head {
+    flex-wrap: inherit;
+    justify-content: center;
+  }
+
+  .Menu1 ul,
+  .Menu2 ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Menu1 li,
+  .Menu2 li {
+    margin: 20px 0;
+  }
+
+  .logo {
+    margin-top: 20px;
+  }
+
+  .worldtour .image-container,
+  .booktour .booknow {
+    flex-direction: column;
+  }
+
+  .testicontainer .testimonial-box,
+  .booknow .left-content,
+  .booknow .right-content {
+    flex: 1;
+    margin: 10px;
+  }
+}
+
+    </style>
 </head>
 <body>
     <section id="header">
@@ -21,33 +199,68 @@
             </div>
             <div class="Menu2">
                 <ul>
-                    <li><a href="journal.html">JOURNAL</a></li>
+                    <li><a href="journal.html">DESTINATIONS</a></li>
                     <li><a href="contact.html">CONTACT US</a></li>
                 </ul>
             </div>
 
         </div>
         <div class="maintext">
-            <h1>The Great Outdoors</h1>
-            <P class="tagline">Wander often. Wonder always.</P>
+            
+            
         </div>
         
-    
-          
+    </section>
+    <section class="worldtour">
+        <h2 style="font-size: 50px; text-align: center; padding-top: 60px;">ABOUT US</h2>
+        <p style="font-size: 60px; font-style: italic; text-align: center; padding-top: 35px; padding-left: 10%; padding-right: 10%; padding-bottom: 10px;" >"Traveling – it leaves you speechless, then turns you into a storyteller."</p>
 
+         </section>
+    <section class="booktour">
+        <div class="booknow">
+            <div class="left-content">
+              
+              <p style="padding-top: 30px;">"Embark on your next adventure with confidence by booking your tour now. Our expertly curated experiences promise to immerse you in the wonders of the world. Whether it's exploring ancient ruins or relaxing on pristine beaches, we have the perfect journey waiting for you. Secure your spot today and create unforgettable memories that will last a lifetime. Embark on your next adventure with confidence by booking your tour now. Our expertly curated experiences promise to immerse you in the wonders of the world. Whether it's exploring ancient ruins or relaxing on pristine beaches, we have the perfect journey waiting for you. Secure your spot today and create unforgettable memories that will last a lifetime."</p>
+            </div>
+            <div class="left-content">
+                
+                <p style="padding-top: 30px;">"Embark on your next adventure with confidence by booking your tour now. Our expertly curated experiences promise to immerse you in the wonders of the world. Whether it's exploring ancient ruins or relaxing on pristine beaches, we have the perfect journey waiting for you. Secure your spot today and create unforgettable memories that will last a lifetime. Embark on your next adventure with confidence by booking your tour now. Our expertly curated experiences promise to immerse you in the wonders of the world. Whether it's exploring ancient ruins or relaxing on pristine beaches, we have the perfect journey waiting for you. Secure your spot today and create unforgettable memories that will last a lifetime."</p>
+              </div>
+          </div>
+          
+    </section>
+          
+    </section>
+    <section class="worldtour">
+        
+        <div class="testicontainer">
+            
+            
+          </div>
+          
+          
+          
+          
+    </section>
+    <section class="booktour">
+        <div class="booknow">
+            <div class="left-content">
+              <h2>OUR PASSION</h2>
+              <p style="padding-top: 30px;">Our passion for exploration knows no bounds. We believe that travel is not just about visiting new places; it's about immersing ourselves in diverse cultures, savoring unique flavors, and creating unforgettable memories. Our team is driven by a shared love for adventure, fueled by the desire to uncover hidden gems and share them with fellow wanderers. Every journey we curate is infused with our dedication to providing immersive experiences that ignite the spirit of discovery within our travelers. With every trip we plan, our passion for adventure grows stronger, guiding us to craft extraordinary adventures that leave a lasting impact on all who embark on them.</p>
+            </div>
+            <div class="left-content">
+                <h2>OUR DREAMS</h2>
+                <p style="padding-top: 30px;">Our dreams fuel our journey. We envision travel as a gateway to endless possibilities, where each destination becomes a canvas for our wildest aspirations. Our team is united by the dream of unveiling the world's wonders and weaving them into unforgettable narratives. With boundless imagination and unwavering determination, we strive to transform dreams into realities. Every trip we design is a testament to our commitment to turning dreams into tangible experiences, where every traveler's vision finds its perfect expression. Through our shared dreams, we craft journeys that inspire, empower, and leave an indelible mark on the hearts of all who dare to dream with us.</p>
+              </div>
+          </div>
+          
     </section>
 
+    <footer>
+        <div class="container">
+            <p>©  Assignment Website. All rights reserved. | <a href="about.html">ABOUT</a> <a href="explore.html">EXPLORE </a> <a href="journal.html">DESTINATIONS</a> <a href="contact.html">CONTACT US</a></p>
+        </div>
+    </footer>
 
-<section class="onlyimg">
-    <h1 style="text-align: center; padding-top: 100px;">THANK YOU</h1>
-</section>
-<footer>
-    <div class="container">
-        <p>©  Assignment Website. All rights reserved. | <a href="about.html">ABOUT</a> <a href="explore.html">EXPLORE </a> <a href="journal.html">JOURNAL</a> <a href="contact.html">CONTACT US</a></p>
-    </div>
-</footer>
-
-
-    
 </body>
 </html>
