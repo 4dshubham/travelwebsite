@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
        body {
-            background-color: #111111; /* dark background */
-            color: #ffffff; /* white text */
+            background-color: #111111; 
+            color: #ffffff; 
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
             flex-direction: column;
-            min-height: 100vh; /* Ensure footer sticks to the bottom */
+            min-height: 100vh; 
         }
 
         .container {
@@ -30,7 +30,7 @@
             padding-top: 100px;
             border-radius: 10px;
             
-            flex: 1; /* Allow container to grow */
+            flex: 1; 
         }
 
         .contact-form {
@@ -41,7 +41,7 @@
         .contact-info {
             width: 40%;
             padding-left: 50px;
-            border-left: 1px solid #ffffff; /* vertical line */
+            border-left: 1px solid #ffffff; 
         }
 
         input[type="text"],
@@ -58,7 +58,7 @@
         }
 
         input[type="submit"] {
-            background-color: #1db954; /* green color */
+            background-color: #1db954; 
             color: #ffffff;
             border: none;
             padding: 15px 20px;
@@ -68,7 +68,7 @@
         }
 
         input[type="submit"]:hover {
-            background-color: #15a548; /* darker green color */
+            background-color: #15a548; 
         }
 
         h2 {
@@ -92,7 +92,7 @@
 
         .map-container {
             width: 100%;
-            height: 400px; /* Adjust as needed */
+            height: 400px; 
             margin-top: 20px;
             border-radius: 10px;
             overflow: hidden;
@@ -175,14 +175,14 @@ a{
 }
 .map-container {
     width: 80%;
-    height: 600px; /* Adjust as needed */
+    height: 600px; 
     border-radius: 50px;
     overflow: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-right: 1000px; /* Adjust as needed */
+    margin-right: 1000px; 
 }
 
 .map-container iframe {
@@ -192,11 +192,44 @@ a{
 }
 .maps{
     width: 100%;
-    height: 600px; /* Adjust as needed */
+    height: 600px; 
     border-radius: 100px;
     overflow: hidden;
-    position: relative; /* Set position relative */
-    margin: 20px auto; /* Center horizontally */
+    position: relative; 
+    margin: 20px auto; 
+}
+@media only screen and (max-width: 768px) {
+  .head {
+    flex-wrap: inherit;
+    justify-content: center;
+  }
+
+  .Menu1 ul,
+  .Menu2 ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Menu1 li,
+  .Menu2 li {
+    margin: 20px 0;
+  }
+
+  .logo {
+    margin-top: 20px;
+  }
+
+  .worldtour .image-container,
+  .booktour .booknow {
+    flex-direction: column;
+  }
+
+  .testicontainer .testimonial-box,
+  .booknow .left-content,
+  .booknow .right-content {
+    flex: 1;
+    margin: 10px;
+  }
 }
 
 
@@ -215,7 +248,7 @@ a{
         </div>
         <div class="Menu2">
             <ul>
-                <li><a href="journal.html">JOURNAL</a></li>
+                <li><a href="journal.html">GALLERY</a></li>
                 <li><a href="contact.html">CONTACT US</a></li>
             </ul>
         </div>
@@ -238,15 +271,15 @@ a{
     </div>
     <div class="contact-info">
         <h2>Our Details</h2>
-        <p><i class="fas fa-map-marker-alt icon"></i>123 Street, City, Country</p>
-        <p><i class="fas fa-envelope icon"></i>example@example.com</p>
-        <p><i class="fas fa-phone icon"></i>+1234567890</p>
-        <h3>Follow Us</h3>
+        <p><i class="fas fa-map-marker-alt icon"></i>FC 14/15, Film City, Sector 16A, Noida, Uttar Pradesh 201301</p>
+        <p><i class="fas fa-envelope icon"></i>4dShubham@gmail.com</p>
+        <p><i class="fas fa-phone icon"></i>+91 8527149687</p>
+        <h3>Follow Me</h3>
         <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook-f icon"></i></a>
-            <a href="#"><i class="fab fa-twitter icon"></i></a>
-            <a href="#"><i class="fab fa-instagram icon"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
+            
+            <a href="https://twitter.com/ANTIQUEGAMER1"><i class="fab fa-twitter icon"></i></a>
+            <a href="https://www.instagram.com/4d_shubh/"><i class="fab fa-instagram icon"></i></a>
+            <a href="https://www.linkedin.com/in/shubham-srivas-51376b246/"><i class="fab fa-linkedin-in icon"></i></a>
         </div>
     </div>
    
@@ -256,13 +289,13 @@ a{
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14016.107032236114!2d77.3156753!3d28.5689592!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce446ab6712d3%3A0xdef21240e094e55e!2sAAFT!5e0!3m2!1sen!2sin!4v1712496095165!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
-</div>
+    </div>
 </div>
 
 
 <footer class="footer">
     <div>
-        <p>©  Assignment Website. All rights reserved. | <a href="about.html">ABOUT</a> <a href="explore.html">EXPLORE </a> <a href="journal.html">JOURNAL</a> <a href="contact.html">CONTACT US</a></p>
+        <p>©  Assignment Website. All rights reserved. | <a href="about.html">ABOUT</a> <a href="explore.html">EXPLORE </a> <a href="journal.html">GALLERY</a> <a href="contact.html">CONTACT US</a></p>
     </div>
 </footer>
 
